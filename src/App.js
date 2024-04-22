@@ -63,27 +63,6 @@ const App = () => {
     dispatch(getStudentData()); 
   }, [])
 
-  // console.log(student , 'student')
-  
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1
-  // };
-  // const [open, setOpen] = useState('1');
-  // const toggle = (id) => {
-  //   console.log(id)
-  //   if (open === id) {
-  //     setOpen();
-  //   } else {
-  //     setOpen(id);
-  //   }
-  // };
-
   const getValue = (val) => {
     setValue(val)
   }
