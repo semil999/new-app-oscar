@@ -1,0 +1,6 @@
+export const PLUS = "PLUS"
+export const MINUS = "MINUS"
+export const INSERT = "INSERT"
+export const UPDATE = "UPDATE"
+export const DELETE = "DELETE"
+export const SUCCESS = "SUCCESS"

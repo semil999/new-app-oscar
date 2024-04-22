@@ -1,0 +1,17 @@
+.main{
+    text-align: center;
+    p{
+        color: red;
+        font-size: 20px;
+        h3{
+            color: green;
+            font-size: 50px;
+        }
+    }
+    &_p2{
+        background-color: yellow;
+    }
+    &_p3{
+        background-color: red;
+    }
+}
